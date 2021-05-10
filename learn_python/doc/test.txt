@@ -1,0 +1,611 @@
+﻿2020-07-24 10:22:42> Program: Starting Squirrel Updater: --createShortcut=Postman.exe
+2020-07-24 10:22:42> ApplyReleasesImpl: About to create shortcuts for Postman.exe, rootAppDir C:\Users\WQ\AppData\Local\Postman
+2020-07-24 10:22:43> ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\WQ\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk
+2020-07-24 10:22:43> ApplyReleasesImpl: About to save shortcut: C:\Users\WQ\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk (target C:\Users\WQ\AppData\Local\Postman\Postman.exe, workingDir C:\Users\WQ\AppData\Local\Postman\app-7.29.0, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+2020-07-24 10:22:43> ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\WQ\Desktop\Postman.lnk
+2020-07-24 10:22:43> ApplyReleasesImpl: About to save shortcut: C:\Users\WQ\Desktop\Postman.lnk (target C:\Users\WQ\AppData\Local\Postman\Postman.exe, workingDir C:\Users\WQ\AppData\Local\Postman\app-7.29.0, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+2020-07-24 10:22:43> ApplyReleasesImpl: Examining Pin: Control Panel.lnk
+2020-07-24 10:22:43> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2020-07-24 10:22:43> ApplyReleasesImpl: Examining Pin: IntelliJ IDEA 2020.1.3.lnk
+2020-07-24 10:22:43> ApplyReleasesImpl: Examining Pin: MuMu模拟器.lnk
+2020-07-24 10:22:43> ApplyReleasesImpl: Examining Pin: WebStorm 2020.1.3.lnk
+2020-07-24 10:22:43> ApplyReleasesImpl: Examining Pin: 微信.lnk
+2020-07-24 10:22:43> ApplyReleasesImpl: Examining Pin: 网易云音乐.lnk
+2020-07-27 09:09:36> Program: Starting Squirrel Updater: --checkForUpdate https://dl.pstmn.io/update/WIN64/7.29.0/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-07-27 09:09:36> Program: Fetching update information, downloading from https://dl.pstmn.io/update/WIN64/7.29.0/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-07-27 09:09:36> CheckForUpdateImpl: Generated new staging user ID: 6f5c6853-b880-51fd-b65c-4d127b38a991
+2020-07-27 09:09:36> CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/7.29.0/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-07-27 09:09:37> FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/7.29.0/stable/RELEASES?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=&id=Postman&localVersion=7.29.0&arch=amd64
+2020-07-27 09:09:40> UpdateInfo: Couldn't get release notes for:Postman-win64-7.29.1-delta.nupkg: System.IO.FileNotFoundException: 未能找到文件“F:\Postman\packages\Postman-win64-7.29.1-delta.nupkg”。
+文件名:“F:\Postman\packages\Postman-win64-7.29.1-delta.nupkg”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   在 NuGet.ZipPackage.EnsureManifest()
+   在 NuGet.ZipPackage..ctor(String filePath, Boolean enableCaching)
+   在 Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   在 Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+2020-07-27 09:09:40> Program: Starting Squirrel Updater: --update https://dl.pstmn.io/update/WIN64/7.29.0/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-07-27 09:09:40> Program: Starting update, downloading from https://dl.pstmn.io/update/WIN64/7.29.0/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-07-27 09:09:40> Program: About to update to: F:\Postman
+2020-07-27 09:09:40> CheckForUpdateImpl: Using existing staging user ID: 6f5c6853-b880-51fd-b65c-4d127b38a991
+2020-07-27 09:09:40> CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/7.29.0/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-07-27 09:09:40> FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/7.29.0/stable/RELEASES?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=&id=Postman&localVersion=7.29.0&arch=amd64
+2020-07-27 09:09:43> FileDownloader: Downloading file: https://dl.pstmn.io/download/7.29.1/Postman-win64-7.29.1-delta.nupkg
+2020-07-27 09:17:40> DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+2020-07-27 09:17:40> DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+2020-07-27 09:17:40> DeltaPackageBuilder: lib\net45\d3dcompiler_47.dll.diff exists unchanged, skipping
+2020-07-27 09:17:40> DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+2020-07-27 09:17:40> DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+2020-07-27 09:17:40> DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+2020-07-27 09:17:40> DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+2020-07-27 09:17:40> DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+2020-07-27 09:17:40> DeltaPackageBuilder: lib\net45\natives_blob.bin.diff exists unchanged, skipping
+2020-07-27 09:17:40> DeltaPackageBuilder: Applying BSDiff to lib\net45\Postman.exe.bsdiff
+2020-07-27 09:17:43> DeltaPackageBuilder: Applying MSDiff to lib\net45\Postman_ExecutionStub.exe.diff
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+2020-07-27 09:17:43> DeltaPackageBuilder: Adding new file: lib\net45\resources\app.asar
+2020-07-27 09:17:43> DeltaPackageBuilder: Updating metadata file: Postman.nuspec
+2020-07-27 09:17:43> DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+2020-07-27 09:17:43> DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\c85a5e2ee04241e8ac9b598b74f9cc44.psmdcp
+2020-07-27 09:17:43> DeltaPackageBuilder: Updating metadata file: _rels\.rels
+2020-07-27 09:17:43> DeltaPackageBuilder: Repacking into full package: F:\Postman\packages\Postman-win64-7.29.1.nupkg
+2020-07-27 09:18:01> ApplyReleasesImpl: Writing files to app directory: F:\Postman\app-7.29.1
+2020-07-27 09:18:03> LogHost: Rigging execution stub for Postman_ExecutionStub.exe to F:\Postman\Postman.exe
+2020-07-27 09:18:08> ApplyReleasesImpl: Squirrel Enabled Apps: [F:\Postman\app-7.29.1\Postman.exe]
+2020-07-27 09:18:09> ApplyReleasesImpl: Starting fixPinnedExecutables
+2020-07-27 09:18:09> ApplyReleasesImpl: Examining Pin: Control Panel.lnk
+2020-07-27 09:18:09> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2020-07-27 09:18:09> ApplyReleasesImpl: Examining Pin: IntelliJ IDEA 2020.1.3.lnk
+2020-07-27 09:18:09> ApplyReleasesImpl: Examining Pin: MuMu模拟器.lnk
+2020-07-27 09:18:09> ApplyReleasesImpl: Examining Pin: WebStorm 2020.1.3.lnk
+2020-07-27 09:18:09> ApplyReleasesImpl: Examining Pin: 微信.lnk
+2020-07-27 09:18:09> ApplyReleasesImpl: Examining Pin: 网易云音乐.lnk
+2020-07-27 09:18:09> ApplyReleasesImpl: Fixing up tray icons
+2020-07-27 09:18:09> ApplyReleasesImpl: cleanDeadVersions: for version 7.29.1
+2020-07-27 09:18:09> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.29.0
+2020-07-27 09:18:09> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.29.1
+2020-07-27 09:18:09> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: 未能找到路径“C:\Users\Administrator\buildkite-agent\builds\pm-build\postman\app-package-and-deploy\resources\postman-prod.ico”的一部分。 ---> System.Net.WebException: 未能找到路径“C:\Users\Administrator\buildkite-agent\builds\pm-build\postman\app-package-and-deploy\resources\postman-prod.ico”的一部分。 ---> System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\buildkite-agent\builds\pm-build\postman\app-package-and-deploy\resources\postman-prod.ico”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   在 System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   在 System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+2020-07-27 11:18:10> Program: Starting Squirrel Updater: --processStartAndWait Postman.exe
+2020-07-27 11:18:10> Program: Want to launch 'F:\Postman\app-7.29.1\Postman.exe'
+2020-07-27 11:18:10> Program: About to wait for parent PID 13068
+2020-07-27 11:18:11> Program: About to launch: 'F:\Postman\app-7.29.1\Postman.exe': 
+2020-07-27 11:18:17> Program: Starting Squirrel Updater: --createShortcut=Postman.exe --shortcut-locations=StartMenu
+2020-07-27 11:18:17> ApplyReleasesImpl: About to create shortcuts for Postman.exe, rootAppDir F:\Postman
+2020-07-27 11:18:17> ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\WQ\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk
+2020-07-27 11:18:17> ApplyReleasesImpl: About to save shortcut: C:\Users\WQ\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk (target F:\Postman\Postman.exe, workingDir F:\Postman\app-7.29.1, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+2020-07-27 11:18:17> ApplyReleasesImpl: Examining Pin: Control Panel.lnk
+2020-07-27 11:18:17> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2020-07-27 11:18:17> ApplyReleasesImpl: Examining Pin: IntelliJ IDEA 2020.1.3.lnk
+2020-07-27 11:18:17> ApplyReleasesImpl: Examining Pin: MuMu模拟器.lnk
+2020-07-27 11:18:17> ApplyReleasesImpl: Examining Pin: WebStorm 2020.1.3.lnk
+2020-07-27 11:18:17> ApplyReleasesImpl: Examining Pin: 微信.lnk
+2020-07-27 11:18:17> ApplyReleasesImpl: Examining Pin: 网易云音乐.lnk
+2020-08-14 15:48:21> Program: Starting Squirrel Updater: --checkForUpdate https://dl.pstmn.io/update/WIN64/7.29.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-14 15:48:21> Program: Fetching update information, downloading from https://dl.pstmn.io/update/WIN64/7.29.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-14 15:48:21> CheckForUpdateImpl: Using existing staging user ID: 6f5c6853-b880-51fd-b65c-4d127b38a991
+2020-08-14 15:48:21> CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/7.29.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-14 15:48:21> FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/7.29.1/stable/RELEASES?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=&id=Postman-win64&localVersion=7.29.1&arch=amd64
+2020-08-14 15:48:23> UpdateInfo: Couldn't get release notes for:Postman-win64-7.30.0-delta.nupkg: System.IO.FileNotFoundException: 未能找到文件“F:\Postman\packages\Postman-win64-7.30.0-delta.nupkg”。
+文件名:“F:\Postman\packages\Postman-win64-7.30.0-delta.nupkg”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   在 NuGet.ZipPackage.EnsureManifest()
+   在 NuGet.ZipPackage..ctor(String filePath, Boolean enableCaching)
+   在 Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   在 Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+2020-08-14 15:48:23> UpdateInfo: Couldn't get release notes for:Postman-win64-7.30.1-delta.nupkg: System.IO.FileNotFoundException: 未能找到文件“F:\Postman\packages\Postman-win64-7.30.1-delta.nupkg”。
+文件名:“F:\Postman\packages\Postman-win64-7.30.1-delta.nupkg”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   在 NuGet.ZipPackage.EnsureManifest()
+   在 NuGet.ZipPackage..ctor(String filePath, Boolean enableCaching)
+   在 Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   在 Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+2020-08-14 15:48:24> Program: Starting Squirrel Updater: --update https://dl.pstmn.io/update/WIN64/7.29.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-14 15:48:24> Program: Starting update, downloading from https://dl.pstmn.io/update/WIN64/7.29.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-14 15:48:24> Program: About to update to: F:\Postman
+2020-08-14 15:48:24> CheckForUpdateImpl: Using existing staging user ID: 6f5c6853-b880-51fd-b65c-4d127b38a991
+2020-08-14 15:48:24> CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/7.29.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-14 15:48:24> FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/7.29.1/stable/RELEASES?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=&id=Postman-win64&localVersion=7.29.1&arch=amd64
+2020-08-14 15:48:26> FileDownloader: Downloading file: https://dl.pstmn.io/download/7.30.1/Postman-win64-7.30.1-delta.nupkg
+2020-08-14 15:48:26> FileDownloader: Downloading file: https://dl.pstmn.io/download/7.30.0/Postman-win64-7.30.0-delta.nupkg
+2020-08-14 16:26:15> DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+2020-08-14 16:26:15> DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+2020-08-14 16:26:15> DeltaPackageBuilder: lib\net45\d3dcompiler_47.dll.diff exists unchanged, skipping
+2020-08-14 16:26:15> DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+2020-08-14 16:26:15> DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+2020-08-14 16:26:15> DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+2020-08-14 16:26:16> DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+2020-08-14 16:26:16> DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+2020-08-14 16:26:16> DeltaPackageBuilder: lib\net45\natives_blob.bin.diff exists unchanged, skipping
+2020-08-14 16:26:16> DeltaPackageBuilder: Applying BSDiff to lib\net45\Postman.exe.bsdiff
+2020-08-14 16:26:18> DeltaPackageBuilder: Applying MSDiff to lib\net45\Postman_ExecutionStub.exe.diff
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+2020-08-14 16:26:18> DeltaPackageBuilder: Adding new file: lib\net45\resources\app.asar
+2020-08-14 16:26:18> DeltaPackageBuilder: Updating metadata file: Postman.nuspec
+2020-08-14 16:26:18> DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+2020-08-14 16:26:18> DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\1bc5b819b707490c87adfd98a211c4e8.psmdcp
+2020-08-14 16:26:18> DeltaPackageBuilder: Updating metadata file: _rels\.rels
+2020-08-14 16:26:18> DeltaPackageBuilder: Repacking into full package: F:\Postman\packages\Postman-win64-7.30.0.nupkg
+2020-08-14 16:26:44> DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+2020-08-14 16:26:44> DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+2020-08-14 16:26:44> DeltaPackageBuilder: lib\net45\d3dcompiler_47.dll.diff exists unchanged, skipping
+2020-08-14 16:26:44> DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+2020-08-14 16:26:44> DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+2020-08-14 16:26:44> DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+2020-08-14 16:26:44> DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+2020-08-14 16:26:44> DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+2020-08-14 16:26:44> DeltaPackageBuilder: lib\net45\natives_blob.bin.diff exists unchanged, skipping
+2020-08-14 16:26:44> DeltaPackageBuilder: Applying BSDiff to lib\net45\Postman.exe.bsdiff
+2020-08-14 16:26:46> DeltaPackageBuilder: Applying MSDiff to lib\net45\Postman_ExecutionStub.exe.diff
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+2020-08-14 16:26:47> DeltaPackageBuilder: Adding new file: lib\net45\resources\app.asar
+2020-08-14 16:26:47> DeltaPackageBuilder: Updating metadata file: Postman.nuspec
+2020-08-14 16:26:47> DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+2020-08-14 16:26:47> DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\bd70c42248ac4a76a3aa52527c809ccf.psmdcp
+2020-08-14 16:26:47> DeltaPackageBuilder: Updating metadata file: _rels\.rels
+2020-08-14 16:26:47> DeltaPackageBuilder: Repacking into full package: F:\Postman\packages\Postman-win64-7.30.1.nupkg
+2020-08-14 16:27:06> ApplyReleasesImpl: Writing files to app directory: F:\Postman\app-7.30.1
+2020-08-14 16:27:08> LogHost: Rigging execution stub for Postman_ExecutionStub.exe to F:\Postman\Postman.exe
+2020-08-14 16:27:12> ApplyReleasesImpl: Squirrel Enabled Apps: [F:\Postman\app-7.30.1\Postman.exe]
+2020-08-14 16:27:13> ApplyReleasesImpl: Starting fixPinnedExecutables
+2020-08-14 16:27:13> ApplyReleasesImpl: Examining Pin: Control Panel.lnk
+2020-08-14 16:27:13> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2020-08-14 16:27:13> ApplyReleasesImpl: Examining Pin: IntelliJ IDEA 2020.1.3.lnk
+2020-08-14 16:27:13> ApplyReleasesImpl: Examining Pin: PyCharm 2020.1.lnk
+2020-08-14 16:27:13> ApplyReleasesImpl: Examining Pin: WebStorm 2020.1.3.lnk
+2020-08-14 16:27:13> ApplyReleasesImpl: Examining Pin: 微信.lnk
+2020-08-14 16:27:13> ApplyReleasesImpl: Examining Pin: 网易云音乐.lnk
+2020-08-14 16:27:13> ApplyReleasesImpl: Fixing up tray icons
+2020-08-14 16:27:13> ApplyReleasesImpl: cleanDeadVersions: for version 7.30.1
+2020-08-14 16:27:13> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.29.1
+2020-08-14 16:27:13> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.30.1
+2020-08-14 16:27:19> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: 未能找到路径“C:\Users\Administrator\buildkite-agent\builds\pm-build\postman\app-package-and-deploy\resources\postman-prod.ico”的一部分。 ---> System.Net.WebException: 未能找到路径“C:\Users\Administrator\buildkite-agent\builds\pm-build\postman\app-package-and-deploy\resources\postman-prod.ico”的一部分。 ---> System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\buildkite-agent\builds\pm-build\postman\app-package-and-deploy\resources\postman-prod.ico”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   在 System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   在 System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+2020-08-14 16:27:25> Program: Starting Squirrel Updater: --processStartAndWait Postman.exe
+2020-08-14 16:27:25> Program: Want to launch 'F:\Postman\app-7.30.1\Postman.exe'
+2020-08-14 16:27:25> Program: About to wait for parent PID 15324
+2020-08-14 16:27:25> Program: About to launch: 'F:\Postman\app-7.30.1\Postman.exe': 
+2020-08-14 16:27:33> Program: Starting Squirrel Updater: --createShortcut=Postman.exe --shortcut-locations=StartMenu
+2020-08-14 16:27:33> ApplyReleasesImpl: About to create shortcuts for Postman.exe, rootAppDir F:\Postman
+2020-08-14 16:27:33> ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\WQ\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk
+2020-08-14 16:27:33> ApplyReleasesImpl: About to save shortcut: C:\Users\WQ\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk (target F:\Postman\Postman.exe, workingDir F:\Postman\app-7.30.1, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+2020-08-14 16:27:33> ApplyReleasesImpl: Examining Pin: Control Panel.lnk
+2020-08-14 16:27:33> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2020-08-14 16:27:33> ApplyReleasesImpl: Examining Pin: IntelliJ IDEA 2020.1.3.lnk
+2020-08-14 16:27:33> ApplyReleasesImpl: Examining Pin: PyCharm 2020.1.lnk
+2020-08-14 16:27:33> ApplyReleasesImpl: Examining Pin: WebStorm 2020.1.3.lnk
+2020-08-14 16:27:33> ApplyReleasesImpl: Examining Pin: 微信.lnk
+2020-08-14 16:27:33> ApplyReleasesImpl: Examining Pin: 网易云音乐.lnk
+2020-08-27 22:38:50> Program: Starting Squirrel Updater: --checkForUpdate https://dl.pstmn.io/update/WIN64/7.30.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-27 22:38:50> Program: Fetching update information, downloading from https://dl.pstmn.io/update/WIN64/7.30.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-27 22:38:50> CheckForUpdateImpl: Using existing staging user ID: 6f5c6853-b880-51fd-b65c-4d127b38a991
+2020-08-27 22:38:50> CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/7.30.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-27 22:38:50> FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/7.30.1/stable/RELEASES?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=&id=Postman-win64&localVersion=7.30.1&arch=amd64
+2020-08-27 22:38:52> UpdateInfo: Couldn't get release notes for:Postman-win64-7.31.0-delta.nupkg: System.IO.FileNotFoundException: 未能找到文件“F:\Postman\packages\Postman-win64-7.31.0-delta.nupkg”。
+文件名:“F:\Postman\packages\Postman-win64-7.31.0-delta.nupkg”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   在 NuGet.ZipPackage.EnsureManifest()
+   在 NuGet.ZipPackage..ctor(String filePath, Boolean enableCaching)
+   在 Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   在 Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+2020-08-27 22:38:52> UpdateInfo: Couldn't get release notes for:Postman-win64-7.31.1-delta.nupkg: System.IO.FileNotFoundException: 未能找到文件“F:\Postman\packages\Postman-win64-7.31.1-delta.nupkg”。
+文件名:“F:\Postman\packages\Postman-win64-7.31.1-delta.nupkg”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   在 NuGet.ZipPackage.EnsureManifest()
+   在 NuGet.ZipPackage..ctor(String filePath, Boolean enableCaching)
+   在 Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   在 Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+2020-08-27 22:38:52> Program: Starting Squirrel Updater: --update https://dl.pstmn.io/update/WIN64/7.30.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-27 22:38:52> Program: Starting update, downloading from https://dl.pstmn.io/update/WIN64/7.30.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-27 22:38:52> Program: About to update to: F:\Postman
+2020-08-27 22:38:52> CheckForUpdateImpl: Using existing staging user ID: 6f5c6853-b880-51fd-b65c-4d127b38a991
+2020-08-27 22:38:52> CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/7.30.1/stable?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=
+2020-08-27 22:38:52> FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/7.30.1/stable/RELEASES?installationId=50d63626-9ed3-468c-802b-5b1c8a7bad69&userId=7569814&syncEnabled=true&teamPlan=&id=Postman-win64&localVersion=7.30.1&arch=amd64
+2020-08-27 22:38:54> FileDownloader: Downloading file: https://dl.pstmn.io/download/7.31.1/Postman-win64-7.31.1-delta.nupkg
+2020-08-27 22:38:54> FileDownloader: Downloading file: https://dl.pstmn.io/download/7.31.0/Postman-win64-7.31.0-delta.nupkg
+2020-08-27 22:39:28> DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+2020-08-27 22:39:28> DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+2020-08-27 22:39:28> DeltaPackageBuilder: lib\net45\d3dcompiler_47.dll.diff exists unchanged, skipping
+2020-08-27 22:39:28> DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+2020-08-27 22:39:28> DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+2020-08-27 22:39:28> DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+2020-08-27 22:39:28> DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+2020-08-27 22:39:29> DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+2020-08-27 22:39:29> DeltaPackageBuilder: lib\net45\natives_blob.bin.diff exists unchanged, skipping
+2020-08-27 22:39:29> DeltaPackageBuilder: Applying BSDiff to lib\net45\Postman.exe.bsdiff
+2020-08-27 22:39:31> DeltaPackageBuilder: Applying MSDiff to lib\net45\Postman_ExecutionStub.exe.diff
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+2020-08-27 22:39:31> DeltaPackageBuilder: Adding new file: lib\net45\resources\app.asar
+2020-08-27 22:39:31> DeltaPackageBuilder: Updating metadata file: Postman.nuspec
+2020-08-27 22:39:31> DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+2020-08-27 22:39:31> DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\f96c8ea4775541558fae342b60689a29.psmdcp
+2020-08-27 22:39:31> DeltaPackageBuilder: Updating metadata file: _rels\.rels
+2020-08-27 22:39:31> DeltaPackageBuilder: Repacking into full package: F:\Postman\packages\Postman-win64-7.31.0.nupkg
+2020-08-27 22:39:55> DeltaPackageBuilder: lib\net45\chrome_100_percent.pak.diff exists unchanged, skipping
+2020-08-27 22:39:55> DeltaPackageBuilder: lib\net45\chrome_200_percent.pak.diff exists unchanged, skipping
+2020-08-27 22:39:55> DeltaPackageBuilder: lib\net45\d3dcompiler_47.dll.diff exists unchanged, skipping
+2020-08-27 22:39:55> DeltaPackageBuilder: Applying MSDiff to lib\net45\ffmpeg.dll.diff
+2020-08-27 22:39:55> DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+2020-08-27 22:39:55> DeltaPackageBuilder: Applying MSDiff to lib\net45\libEGL.dll.diff
+2020-08-27 22:39:55> DeltaPackageBuilder: Applying MSDiff to lib\net45\libGLESv2.dll.diff
+2020-08-27 22:39:55> DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+2020-08-27 22:39:55> DeltaPackageBuilder: lib\net45\natives_blob.bin.diff exists unchanged, skipping
+2020-08-27 22:39:55> DeltaPackageBuilder: Applying BSDiff to lib\net45\Postman.exe.bsdiff
+2020-08-27 22:39:57> DeltaPackageBuilder: Applying MSDiff to lib\net45\Postman_ExecutionStub.exe.diff
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\resources.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\v8_context_snapshot.bin.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+2020-08-27 22:39:57> DeltaPackageBuilder: Adding new file: lib\net45\resources\app.asar
+2020-08-27 22:39:57> DeltaPackageBuilder: Updating metadata file: Postman.nuspec
+2020-08-27 22:39:57> DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+2020-08-27 22:39:57> DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\41601b54ea10489b8b3e34c4c68fd63e.psmdcp
+2020-08-27 22:39:57> DeltaPackageBuilder: Updating metadata file: _rels\.rels
+2020-08-27 22:39:57> DeltaPackageBuilder: Repacking into full package: F:\Postman\packages\Postman-win64-7.31.1.nupkg
+2020-08-27 22:40:16> ApplyReleasesImpl: Writing files to app directory: F:\Postman\app-7.31.1
+2020-08-27 22:40:18> LogHost: Rigging execution stub for Postman_ExecutionStub.exe to F:\Postman\Postman.exe
+2020-08-27 22:40:22> ApplyReleasesImpl: Squirrel Enabled Apps: [F:\Postman\app-7.31.1\Postman.exe]
+2020-08-27 22:40:23> ApplyReleasesImpl: Starting fixPinnedExecutables
+2020-08-27 22:40:23> ApplyReleasesImpl: Examining Pin: Control Panel.lnk
+2020-08-27 22:40:23> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2020-08-27 22:40:23> ApplyReleasesImpl: Examining Pin: IntelliJ IDEA 2020.1.3.lnk
+2020-08-27 22:40:23> ApplyReleasesImpl: Examining Pin: PyCharm 2020.1.lnk
+2020-08-27 22:40:23> ApplyReleasesImpl: Examining Pin: WebStorm 2020.1.3.lnk
+2020-08-27 22:40:23> ApplyReleasesImpl: Examining Pin: 微信.lnk
+2020-08-27 22:40:23> ApplyReleasesImpl: Examining Pin: 网易云音乐.lnk
+2020-08-27 22:40:23> ApplyReleasesImpl: Fixing up tray icons
+2020-08-27 22:40:23> ApplyReleasesImpl: cleanDeadVersions: for version 7.31.1
+2020-08-27 22:40:23> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.30.1
+2020-08-27 22:40:23> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.31.1
+2020-08-27 22:40:28> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: 未能找到路径“C:\Users\Administrator\buildkite-agent\builds\pm-build\postman\app-package-and-deploy\resources\postman-prod.ico”的一部分。 ---> System.Net.WebException: 未能找到路径“C:\Users\Administrator\buildkite-agent\builds\pm-build\postman\app-package-and-deploy\resources\postman-prod.ico”的一部分。 ---> System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\buildkite-agent\builds\pm-build\postman\app-package-and-deploy\resources\postman-prod.ico”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   在 System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   在 System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+2020-08-31 14:50:39> Program: Starting Squirrel Updater: --createShortcut=Postman.exe --shortcut-locations=StartMenu
+2020-08-31 14:50:39> ApplyReleasesImpl: About to create shortcuts for Postman.exe, rootAppDir F:\Postman
+2020-08-31 14:50:39> ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\WQ\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk
+2020-08-31 14:50:39> ApplyReleasesImpl: About to save shortcut: C:\Users\WQ\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk (target F:\Postman\Postman.exe, workingDir F:\Postman\app-7.31.1, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+2020-08-31 14:50:40> ApplyReleasesImpl: Examining Pin: Control Panel.lnk
+2020-08-31 14:50:40> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2020-08-31 14:50:40> ApplyReleasesImpl: Examining Pin: IntelliJ IDEA 2020.1.3.lnk
+2020-08-31 14:50:40> ApplyReleasesImpl: Examining Pin: PyCharm 2020.1.lnk
+2020-08-31 14:50:40> ApplyReleasesImpl: Examining Pin: WebStorm 2020.1.3.lnk
+2020-08-31 14:50:40> ApplyReleasesImpl: Examining Pin: 微信.lnk
+2020-08-31 14:50:40> ApplyReleasesImpl: Examining Pin: 网易云音乐.lnk

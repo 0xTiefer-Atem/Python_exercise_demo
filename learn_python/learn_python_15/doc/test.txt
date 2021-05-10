@@ -1,0 +1,1 @@
+[1, "aaa", true, false, {"k1": 2, "k2": "qwe"}]

@@ -1,0 +1,5 @@
+2020-11-28 10:52:58 AM - root - DEBUG - 01_log:  调试debug
+2020-11-28 10:52:58 AM - root - INFO - 01_log:  消息info
+2020-11-28 10:52:58 AM - root - WARNING - 01_log:  警告warn
+2020-11-28 10:52:58 AM - root - ERROR - 01_log:  错误error
+2020-11-28 10:52:58 AM - root - CRITICAL - 01_log:  严重critical
